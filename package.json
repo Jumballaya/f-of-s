@@ -8,5 +8,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-import": "^9.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-pseudoelements": "^3.0.0",
+    "postcss-responsify": "^1.0.3"
+  }
 }
