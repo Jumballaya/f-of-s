@@ -35,9 +35,19 @@ Header fonts h1 - h5
 Basic Font Properties
 ```html
 <span class="b">Bold</span>
+<span class="normal">Normal</span>
 <span class="i">Italic</span>
+<span class="thin">Thin</span>
 <span class="underline">Underline</span>
 <a class="text-decoration-none">No Underline</a>
+```
+
+Misc Properties
+```html
+<p class="line-height-3">This paragraph has a slightly larger line height than normal</p>
+<p class="letter-spacing-2">This paragraph has a slightly larger letter spacing than normal</p>
+<p class="font-kerning-none">This removes kerning from the font file</p>
+<p class="break-word hyphens">Word Break with hyphens</p>
 ```
 
 Font Position
@@ -61,3 +71,33 @@ Character Case
 <span class="lead-caps">Lead Caps</span>
 <span class="small-caps">Small Caps</span>
 ```
+
+Font Color (see the colors section for details)
+```html
+<p class="color-{color}">This text is the color {color}</p>
+<p class="color-text">This is the default body copy color</p>
+<a class="color-primary hover-color-primary--dark">Link with a hover color change</a>
+```
+
+List Reset
+```html
+<ul class="list-reset">
+  <li>No Bullets</li>
+  <li>No Numbers on ol</li>
+  <li>No padding</li>
+</ul>
+```
+
+Blockquote
+```html
+<blockquote class="block col-12 py3 m0 font-size-4">
+  This is a block quote full width
+</blockquote>
+```
+
+Paragraph with indent
+```html
+<p class="font-size-3 color-text indent-2">This is a paragraph with a text indent...</p>
+```
+
+

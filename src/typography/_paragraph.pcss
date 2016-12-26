@@ -1,0 +1,63 @@
+@responsive {
+
+  .pre {
+    white-space: pre;
+    tab-size: 2;
+  }
+
+  .pre-wrap {
+    white-space: pre-wrap;
+    tab-size: 2;
+  }
+
+  .pre-line {
+    white-space: pre-line;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .break-word {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .hyphens {
+    hyphens: auto;
+  }
+
+  .no-hyphens {
+    hyphens: none;
+  }
+
+  .truncate {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  @for $i from 1 to 5 {
+    .letter-spacing-$i {
+      letter-spacing: calc(var(--space-$i) / 2);
+    }
+  }
+
+  @for $i from 1 to 5 {
+    .indent-$i {
+      text-indent: var(--space-$i);
+    }
+  }
+
+  @for $i from 1 to 5 {
+    .word-spacing-$i {
+      word-spacing: var(--space-$i);
+    }
+  }
+
+}
+
+.font-kerning-none {
+  font-kerning: none;
+}

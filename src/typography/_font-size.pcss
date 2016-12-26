@@ -1,0 +1,20 @@
+
+@responsive {
+
+  @for $i from 1 to 8 {
+
+    .font-size-$i {
+      line-height: var(--font-size-$i);
+    }
+
+  }
+
+  @each $val, $i in 9, 8, 7, 6, 5, 4 {
+
+    .h$(i) {
+      line-height: var(--font-size-$val);
+    }
+
+  }
+
+}

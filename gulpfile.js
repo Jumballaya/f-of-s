@@ -16,8 +16,18 @@ const breakpoints = [
 
 
 const processors = [
+  require('postcss-at-rules-variables'),
   require('postcss-import'),
+  require('postcss-each'),
+  require('postcss-for'),
+  require('postcss-import')({
+    plugins: [
+      require('postcss-at-rules-variables')({}),
+      require('postcss-import'),
+    ]
+  }),
   require('postcss-custom-properties'),
+  require('postcss-calc')({selectors: true}),
   require('postcss-custom-media'),
   require('postcss-nested'),
   require('postcss-pseudoelements'),
