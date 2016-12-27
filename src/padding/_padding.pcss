@@ -1,0 +1,37 @@
+@responsive {
+
+  @for $i from 0 to 15 {
+
+    .p$i {
+      padding: var(--space-$i);
+    }
+
+    .pt$i {
+      padding-top: var(--space-$i);
+    }
+
+    .pr$i {
+      padding-right: var(--space-$i);
+    }
+
+    .pb$i {
+      padding-bottom: var(--space-$i);
+    }
+
+    .pl$i {
+      padding-left: var(--space-$i);
+    }
+
+    .py$i {
+      padding-top: var(--space-$i);
+      padding-bottom: var(--space-$i);
+    }
+
+    .px$i {
+      padding-left: var(--space-$i);
+      padding-right: var(--space-$i);
+    }
+
+  }
+
+}
