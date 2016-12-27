@@ -1,6 +1,57 @@
 
 /* Border */
 
-.placeholder {
-  color: red;
+@responsive {
+
+  .border {
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .rounded {
+    border-radius: var(--border-radius--default);
+  }
+
+  .circle {
+    border-radius: 50%;
+  }
+
+  .not-rounded {
+    border-radius: 0;
+  }
+
+  @for $i from 1 to var(--default--count) {
+
+    .border-$(i) {
+      border-width: $(i)px;
+    }
+
+  }
+
+  @each $side in top, right, bottom, left {
+
+    .rounded-$(side) {
+      border-radius: var(--border-radius--$(side));
+    }
+
+    .border-$(side) {
+      border-$(side)-style: solid;
+      border-$(side)-width: 1px;
+    }
+
+    @for $i from 1 to var(--default--count) {
+
+      .border--$(side)-$(i) {
+        border-$(side)-$(i): $(i)px;
+      }
+
+    }
+
+  }
+
+
+  .border-none {
+    border: 0;
+  }
+
 }
