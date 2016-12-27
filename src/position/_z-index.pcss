@@ -1,0 +1,23 @@
+@responsive {
+
+  @for $i from 1 to 5 {
+
+    .z$i {
+      z-index: $i;
+    }
+
+    .z10$i {
+      z-index: 10$i;
+    }
+
+    .z100$i {
+      z-index: 100$i;
+    }
+
+  }
+
+  .zn1 {
+    z-index: -1;
+  }
+
+}
