@@ -1,8 +1,68 @@
 /* Colors */
 
-@each $color, $hex in var(--text-obj) {
+/**
+ * For now, the colors have to be added to the @each by hand. I can't get
+ * this pattern: @each $color in var(--color-list) to work.
+ *
+ * I am not sure how to fix this, the postcss-at-variables shows it as
+ * a valid example.
+ *
+ * Colors are as follows:
+ *
+ * primary
+ * primary--dark
+ * primary--light
+ *
+ * secondary
+ * secondary--dark
+ * secondary--light
+ *
+ * text
+ * text--light
+ *
+ * gry--light
+ * gry
+ * gry--dark
+ *
+ *
+ */
 
-  .color-$color {
-    color: $hex;
+@responsive {
+
+  @each $color in (primary, primary--dark, primary--light, secondary, secondary--dark, secondary--light, text, text--light, gry--light, gry, gry--dark) {
+
+    .color-$(color) {
+      color: var(--color-$(color));
+    }
+
+    .bg-$(color) {
+      background-color: var(--color-$(color));
+    }
+
+    .border-$(color) {
+      border-color: var(--color-$(color));
+    }
+
+    .fill-$(color) {
+      fill: var(--color-$(color));
+    }
+
+    .hover-color-$(color):hover {
+      color: var(--color-$(color));
+    }
+
+    .hover-bg-$(color):hover {
+      background-color: var(--color-$(color));
+    }
+
+    .hover-border-$(color):hover {
+      border-color: var(--color-$(color));
+    }
+
+    .hover-fill-$(color):hover {
+      fill: var(--color-$(color));
+    }
+
   }
+
 }
