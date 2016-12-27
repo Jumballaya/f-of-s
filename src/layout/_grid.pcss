@@ -1,0 +1,51 @@
+
+@responsive {
+
+  @for $i from 1 to var(--default--count) {
+
+    .grid-$(i) {
+      width: calc(100% + (var(--space-$(i)) * 2));
+      margin-left: -var(--space-$(i));
+      margin-right: -var(--space-$(i));
+
+      [class*=" col-"] {
+        padding-left: var(--space-$(i));
+        padding-right: var(--space-$(i));
+      }
+    }
+
+  }
+
+  @for $i from 1 to var(--grid-col--count) {
+
+    .col-$(i) {
+      width: calc($(i)/var(--grid-col--count) * 100%);
+    }
+
+  }
+
+  .col {
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+
+  .col-auto {
+    width: auto;
+  }
+
+}
+
+.col-main {
+  max-width: var(--width-main);
+  width: 100%;
+}
+
+.col-narrow {
+  max-width: var(--width-narrow);
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+
+@responsive {
+
+  .max-width-narrow {
+    max-width: var(--width-narrow);
+  }
+
+  .max-width-main {
+    max-width: var(--width-main);
+  }
+
+  .width-full {
+    width: var(--width-full);
+  }
+
+  .fit {
+    max-width: 100%;
+  }
+
+  @for $i from 1 to var(--width-generic--count) {
+
+    .max-width-$(i) {
+      max-width: var(--width-$(i));
+    }
+
+  }
+
+}
