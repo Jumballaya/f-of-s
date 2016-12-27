@@ -38,21 +38,21 @@
     white-space: nowrap;
   }
 
-  @for $i from 1 to 5 {
+  @for $i from 1 to var(--space--count) {
     .letter-spacing-$(i) {
-      letter-spacing: calc(var(--space-$i) / 2);
+      letter-spacing: calc(var(--space-$(i)) / 2);
     }
   }
 
-  @for $i from 1 to 5 {
+  @for $i from 1 to var(--space--count) {
     .indent-$(i) {
-      text-indent: var(--space-$i);
+      text-indent: var(--space-$(i));
     }
   }
 
-  @for $i from 1 to 5 {
+  @for $i from 1 to var(--space--count) {
     .word-spacing-$(i) {
-      word-spacing: var(--space-$i);
+      word-spacing: var(--space-$(i));
     }
   }
 
