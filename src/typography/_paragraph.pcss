@@ -39,19 +39,19 @@
   }
 
   @for $i from 1 to 5 {
-    .letter-spacing-$i {
+    .letter-spacing-$(i) {
       letter-spacing: calc(var(--space-$i) / 2);
     }
   }
 
   @for $i from 1 to 5 {
-    .indent-$i {
+    .indent-$(i) {
       text-indent: var(--space-$i);
     }
   }
 
   @for $i from 1 to 5 {
-    .word-spacing-$i {
+    .word-spacing-$(i) {
       word-spacing: var(--space-$i);
     }
   }
