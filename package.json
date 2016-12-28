@@ -1,6 +1,6 @@
 {
   "name": "f-of-s",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Functional CSS framework",
   "email": "pgb@pburris.me",
   "repository": {
@@ -11,7 +11,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["postcss", "css", "functional", "functional css"],
+  "keywords": [
+    "postcss",
+    "css",
+    "functional",
+    "functional css"
+  ],
   "author": "Patrick Burris",
   "license": "ISC",
   "dependencies": {
@@ -27,12 +32,14 @@
     "postcss-calc": "^5.3.1",
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.1",
+    "postcss-discard-comments": "^2.0.4",
     "postcss-each": "^0.9.3",
     "postcss-for": "^2.1.1",
     "postcss-for-variables": "0.0.5",
     "postcss-import": "^9.0.0",
     "postcss-nested": "^1.0.0",
     "postcss-pseudoelements": "^3.0.0",
+    "postcss-remove-root": "0.0.2",
     "postcss-responsify": "^1.0.3"
   }
 }

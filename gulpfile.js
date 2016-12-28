@@ -34,6 +34,8 @@ const processors = [
   require('postcss-pseudoelements'),
   require('postcss-responsify')({ breakpoints }),
   require('autoprefixer')({browsers: ['last 1 version']}),
+  require('postcss-remove-root'),
+  require('postcss-discard-comments'),
 ];
 
 
