@@ -1,13 +1,13 @@
 {
   "name": "f-of-s",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Functional CSS framework",
   "email": "pgb@pburris.me",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jumballaya/f-of-s"
   },
-  "main": "src/index.pcss",
+  "main": "dist/fofs.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
