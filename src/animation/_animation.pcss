@@ -1,6 +1,24 @@
 
 /* Animation */
+@import './_transition.pcss';
 
-.placeholder {
-  color: red;
+@for $i from 1 to var(--default--count) {
+  .animate-delay-$(i) {
+    animation-delay: calc(var(--animation-speed--default) / 2);
+  }
+}
+
+
+
+/* Designed to work with animate.css */
+@keyframes bulge {
+  0%   { transform: scale(0.40) }
+  50%  { transform: scale(1.1) }
+  100% { transform: scale(1) }
+}
+
+.bulge {
+  animation-name: bulge;
+  animation-timing-function: ease-in-out;
+  animation-duration: var(--animation-speed--default);
 }

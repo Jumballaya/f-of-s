@@ -51,8 +51,64 @@
 }
 /* Styles */
 /* Animation */
-.placeholder {
-  color: red;
+.transition-all {
+  transition: all 300ms;
+}
+.transition-bg {
+  transition: background 300ms;
+}
+.transition-color {
+  transition: color 300ms;
+}
+.transition-opacity {
+  transition: opacity 300ms;
+}
+.transition-border {
+  transition: border 300ms;
+}
+.transition-transform {
+  transition: transform 300ms;
+}
+.animate-delay-1 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-2 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-3 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-4 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-5 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-6 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-7 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-8 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-9 {
+  animation-delay: calc(300ms / 2);
+}
+.animate-delay-10 {
+  animation-delay: calc(300ms / 2);
+}
+/* Designed to work with animate.css */
+@keyframes bulge {
+  0%   { transform: scale(0.40) }
+  50%  { transform: scale(1.1) }
+  100% { transform: scale(1) }
+}
+.bulge {
+  animation-name: bulge;
+  animation-timing-function: ease-in-out;
+  animation-duration: 300ms;
 }
 /* Background */
 .bg-size-contain {
@@ -861,6 +917,12 @@ input[type="checkbox"] {
 }
 input[type="checkbox"]:checked + .checkbox {
   border-color: #dedede;
+}
+.label input[type="radio"] + .radio {
+  border-radius: 50%;
+}
+.label input[type="radio"] + .radio:after {
+  border-radius: 50%;
 }
 .form-reset {
   margin: 0;
