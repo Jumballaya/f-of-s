@@ -1,0 +1,56 @@
+
+
+@each $ctx in radio, checkbox {
+
+  input[type="$(ctx)"] {
+    display: none;
+  }
+
+  .label:hover > input[type="$(ctx)"] + .$(ctx):after {
+    background-color: var(--color-gry--light);
+  }
+
+  .label input[type="$(ctx)"]:checked + .$(ctx):after {
+    background-color: var(--color-gry);
+    animation: bulge var(--animation-speed--default) ease-in-out;
+  }
+
+  .label input[type="$(ctx)"] + .$(ctx) {
+    display: inline-block;
+    position: relative;
+    margin-right: var(--space-1);
+    padding: var(--space-1);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid var(--color-gry--light);
+    vertical-align: middle;
+    transition: var(--animation-speed--default);
+
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        margin: -6px 0 0 -6px;
+        top: 50%;
+        left: 50%;
+        width: 12px;
+        height: 12px;
+        background-color: transparent;
+        transition: background-color var(--animation-speed--default) ease-in-out;
+      }
+  }
+
+  input[type="$(ctx)"]:checked + .$(ctx) {
+    border-color: var(--color-gry);
+  }
+
+}
+
+.label input[type="radio"] + .radio {
+  border-radius: 50%;
+
+  &:after {
+    border-radius: 50%;
+  }
+}
