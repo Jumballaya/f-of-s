@@ -49,6 +49,63 @@
 .placeholder {
   color: red;
 }
+/* Background */
+.bg-size-contain {
+  background-size: contain;
+
+}
+.bg-size-cover {
+  background-size: cover;
+
+}
+.bg-size-50 {
+  background-size: 50%;
+
+}
+.background-size-100 {
+  background-size: 100%;
+
+}
+.bg-attach-scroll {
+  background-attachment: scroll;
+
+}
+.bg-attach-fixed {
+  background-attachment: fixed;
+
+}
+.bg-repeat-x {
+  background-repeat: repeat-x;
+
+}
+.bg-repeat-y {
+  background-repeat: repeat-y;
+
+}
+.bg-repeat-none {
+  background-repeat: none;
+
+}
+.bg-pos-top {
+  background-position: top;
+
+}
+.bg-pos-right {
+  background-position: right;
+
+}
+.bg-pos-bottom {
+  background-position: bottom;
+
+}
+.bg-pos-left {
+  background-position: left;
+
+}
+.bg-pos-center {
+  background-position: center;
+
+}
 /* Border */
 .border {
   border-style: solid;
@@ -3056,6 +3113,62 @@
   font-kerning: none;
 }
 @media (max-width: 480px) {
+  .xs-bg-size-contain {
+    background-size: contain;
+
+  }
+  .xs-bg-size-cover {
+    background-size: cover;
+
+  }
+  .xs-bg-size-50 {
+    background-size: 50%;
+
+  }
+  .xs-background-size-100 {
+    background-size: 100%;
+
+  }
+  .xs-bg-attach-scroll {
+    background-attachment: scroll;
+
+  }
+  .xs-bg-attach-fixed {
+    background-attachment: fixed;
+
+  }
+  .xs-bg-repeat-x {
+    background-repeat: repeat-x;
+
+  }
+  .xs-bg-repeat-y {
+    background-repeat: repeat-y;
+
+  }
+  .xs-bg-repeat-none {
+    background-repeat: none;
+
+  }
+  .xs-bg-pos-top {
+    background-position: top;
+
+  }
+  .xs-bg-pos-right {
+    background-position: right;
+
+  }
+  .xs-bg-pos-bottom {
+    background-position: bottom;
+
+  }
+  .xs-bg-pos-left {
+    background-position: left;
+
+  }
+  .xs-bg-pos-center {
+    background-position: center;
+
+  }
   .xs-border {
     border-style: solid;
     border-width: 1px;
@@ -6000,6 +6113,62 @@
 
 }
 @media (min-width: 480px) {
+  .sm-bg-size-contain {
+    background-size: contain;
+
+  }
+  .sm-bg-size-cover {
+    background-size: cover;
+
+  }
+  .sm-bg-size-50 {
+    background-size: 50%;
+
+  }
+  .sm-background-size-100 {
+    background-size: 100%;
+
+  }
+  .sm-bg-attach-scroll {
+    background-attachment: scroll;
+
+  }
+  .sm-bg-attach-fixed {
+    background-attachment: fixed;
+
+  }
+  .sm-bg-repeat-x {
+    background-repeat: repeat-x;
+
+  }
+  .sm-bg-repeat-y {
+    background-repeat: repeat-y;
+
+  }
+  .sm-bg-repeat-none {
+    background-repeat: none;
+
+  }
+  .sm-bg-pos-top {
+    background-position: top;
+
+  }
+  .sm-bg-pos-right {
+    background-position: right;
+
+  }
+  .sm-bg-pos-bottom {
+    background-position: bottom;
+
+  }
+  .sm-bg-pos-left {
+    background-position: left;
+
+  }
+  .sm-bg-pos-center {
+    background-position: center;
+
+  }
   .sm-border {
     border-style: solid;
     border-width: 1px;
@@ -8944,6 +9113,62 @@
 
 }
 @media (min-width: 630px) {
+  .md-bg-size-contain {
+    background-size: contain;
+
+  }
+  .md-bg-size-cover {
+    background-size: cover;
+
+  }
+  .md-bg-size-50 {
+    background-size: 50%;
+
+  }
+  .md-background-size-100 {
+    background-size: 100%;
+
+  }
+  .md-bg-attach-scroll {
+    background-attachment: scroll;
+
+  }
+  .md-bg-attach-fixed {
+    background-attachment: fixed;
+
+  }
+  .md-bg-repeat-x {
+    background-repeat: repeat-x;
+
+  }
+  .md-bg-repeat-y {
+    background-repeat: repeat-y;
+
+  }
+  .md-bg-repeat-none {
+    background-repeat: none;
+
+  }
+  .md-bg-pos-top {
+    background-position: top;
+
+  }
+  .md-bg-pos-right {
+    background-position: right;
+
+  }
+  .md-bg-pos-bottom {
+    background-position: bottom;
+
+  }
+  .md-bg-pos-left {
+    background-position: left;
+
+  }
+  .md-bg-pos-center {
+    background-position: center;
+
+  }
   .md-border {
     border-style: solid;
     border-width: 1px;
@@ -11888,6 +12113,62 @@
 
 }
 @media (min-width: 720px) {
+  .nrw-bg-size-contain {
+    background-size: contain;
+
+  }
+  .nrw-bg-size-cover {
+    background-size: cover;
+
+  }
+  .nrw-bg-size-50 {
+    background-size: 50%;
+
+  }
+  .nrw-background-size-100 {
+    background-size: 100%;
+
+  }
+  .nrw-bg-attach-scroll {
+    background-attachment: scroll;
+
+  }
+  .nrw-bg-attach-fixed {
+    background-attachment: fixed;
+
+  }
+  .nrw-bg-repeat-x {
+    background-repeat: repeat-x;
+
+  }
+  .nrw-bg-repeat-y {
+    background-repeat: repeat-y;
+
+  }
+  .nrw-bg-repeat-none {
+    background-repeat: none;
+
+  }
+  .nrw-bg-pos-top {
+    background-position: top;
+
+  }
+  .nrw-bg-pos-right {
+    background-position: right;
+
+  }
+  .nrw-bg-pos-bottom {
+    background-position: bottom;
+
+  }
+  .nrw-bg-pos-left {
+    background-position: left;
+
+  }
+  .nrw-bg-pos-center {
+    background-position: center;
+
+  }
   .nrw-border {
     border-style: solid;
     border-width: 1px;
@@ -14832,6 +15113,62 @@
 
 }
 @media (min-width: 800px) {
+  .lg-bg-size-contain {
+    background-size: contain;
+
+  }
+  .lg-bg-size-cover {
+    background-size: cover;
+
+  }
+  .lg-bg-size-50 {
+    background-size: 50%;
+
+  }
+  .lg-background-size-100 {
+    background-size: 100%;
+
+  }
+  .lg-bg-attach-scroll {
+    background-attachment: scroll;
+
+  }
+  .lg-bg-attach-fixed {
+    background-attachment: fixed;
+
+  }
+  .lg-bg-repeat-x {
+    background-repeat: repeat-x;
+
+  }
+  .lg-bg-repeat-y {
+    background-repeat: repeat-y;
+
+  }
+  .lg-bg-repeat-none {
+    background-repeat: none;
+
+  }
+  .lg-bg-pos-top {
+    background-position: top;
+
+  }
+  .lg-bg-pos-right {
+    background-position: right;
+
+  }
+  .lg-bg-pos-bottom {
+    background-position: bottom;
+
+  }
+  .lg-bg-pos-left {
+    background-position: left;
+
+  }
+  .lg-bg-pos-center {
+    background-position: center;
+
+  }
   .lg-border {
     border-style: solid;
     border-width: 1px;
@@ -17776,6 +18113,62 @@
 
 }
 @media (min-width: 960px) {
+  .mn-bg-size-contain {
+    background-size: contain;
+
+  }
+  .mn-bg-size-cover {
+    background-size: cover;
+
+  }
+  .mn-bg-size-50 {
+    background-size: 50%;
+
+  }
+  .mn-background-size-100 {
+    background-size: 100%;
+
+  }
+  .mn-bg-attach-scroll {
+    background-attachment: scroll;
+
+  }
+  .mn-bg-attach-fixed {
+    background-attachment: fixed;
+
+  }
+  .mn-bg-repeat-x {
+    background-repeat: repeat-x;
+
+  }
+  .mn-bg-repeat-y {
+    background-repeat: repeat-y;
+
+  }
+  .mn-bg-repeat-none {
+    background-repeat: none;
+
+  }
+  .mn-bg-pos-top {
+    background-position: top;
+
+  }
+  .mn-bg-pos-right {
+    background-position: right;
+
+  }
+  .mn-bg-pos-bottom {
+    background-position: bottom;
+
+  }
+  .mn-bg-pos-left {
+    background-position: left;
+
+  }
+  .mn-bg-pos-center {
+    background-position: center;
+
+  }
   .mn-border {
     border-style: solid;
     border-width: 1px;
@@ -20720,6 +21113,62 @@
 
 }
 @media (min-width: 1200px) {
+  .xl-bg-size-contain {
+    background-size: contain;
+
+  }
+  .xl-bg-size-cover {
+    background-size: cover;
+
+  }
+  .xl-bg-size-50 {
+    background-size: 50%;
+
+  }
+  .xl-background-size-100 {
+    background-size: 100%;
+
+  }
+  .xl-bg-attach-scroll {
+    background-attachment: scroll;
+
+  }
+  .xl-bg-attach-fixed {
+    background-attachment: fixed;
+
+  }
+  .xl-bg-repeat-x {
+    background-repeat: repeat-x;
+
+  }
+  .xl-bg-repeat-y {
+    background-repeat: repeat-y;
+
+  }
+  .xl-bg-repeat-none {
+    background-repeat: none;
+
+  }
+  .xl-bg-pos-top {
+    background-position: top;
+
+  }
+  .xl-bg-pos-right {
+    background-position: right;
+
+  }
+  .xl-bg-pos-bottom {
+    background-position: bottom;
+
+  }
+  .xl-bg-pos-left {
+    background-position: left;
+
+  }
+  .xl-bg-pos-center {
+    background-position: center;
+
+  }
   .xl-border {
     border-style: solid;
     border-width: 1px;
@@ -23664,6 +24113,62 @@
 
 }
 @media (min-width: 1440px) {
+  .hdr-bg-size-contain {
+    background-size: contain;
+
+  }
+  .hdr-bg-size-cover {
+    background-size: cover;
+
+  }
+  .hdr-bg-size-50 {
+    background-size: 50%;
+
+  }
+  .hdr-background-size-100 {
+    background-size: 100%;
+
+  }
+  .hdr-bg-attach-scroll {
+    background-attachment: scroll;
+
+  }
+  .hdr-bg-attach-fixed {
+    background-attachment: fixed;
+
+  }
+  .hdr-bg-repeat-x {
+    background-repeat: repeat-x;
+
+  }
+  .hdr-bg-repeat-y {
+    background-repeat: repeat-y;
+
+  }
+  .hdr-bg-repeat-none {
+    background-repeat: none;
+
+  }
+  .hdr-bg-pos-top {
+    background-position: top;
+
+  }
+  .hdr-bg-pos-right {
+    background-position: right;
+
+  }
+  .hdr-bg-pos-bottom {
+    background-position: bottom;
+
+  }
+  .hdr-bg-pos-left {
+    background-position: left;
+
+  }
+  .hdr-bg-pos-center {
+    background-position: center;
+
+  }
   .hdr-border {
     border-style: solid;
     border-width: 1px;

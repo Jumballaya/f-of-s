@@ -1,0 +1,50 @@
+
+/* Background */
+
+@responsive {
+
+  .bg-size-contain {
+    background-size: contain;
+  }
+
+  .bg-size-cover {
+    background-size: cover;
+  }
+
+  .bg-size-50 {
+    background-size: 50%;
+  }
+
+  .background-size-100 {
+    background-size: 100%;
+  }
+
+  .bg-attach-scroll {
+    background-attachment: scroll;
+  }
+
+  .bg-attach-fixed {
+    background-attachment: fixed;
+  }
+
+  .bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+
+  .bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+
+  .bg-repeat-none {
+    background-repeat: none;
+  }
+
+  @each $dir in top, right, bottom, left, center {
+
+    .bg-pos-$(dir) {
+      background-position: $(dir);
+    }
+
+  }
+
+}
