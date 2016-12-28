@@ -1,0 +1,40 @@
+
+@responsive {
+
+  @each $ctx in items, self {
+
+    @each $pos in start, end {
+
+      .$(ctx)-$(pos) {
+        align-$(ctx): flex-$(pos);
+      }
+    }
+
+    @each $pos in center, baseline, stretch {
+
+      .$(ctx)-$(pos) {
+        align-$(ctx): $(pos);
+      }
+
+    }
+
+  }
+
+  @each $ctx, $ctxClass in (justify, align), (justify, content) {
+
+
+    @each $class, $prop in (start, end, center, between, around), (flex-start, flex-end, center, space-between, space-around) {
+
+      .$(ctxClass)-$(class) {
+        $(ctx)-content: $(prop);
+      }
+
+    }
+
+  }
+
+  .content-stretch {
+    align-content: stretch;
+  }
+
+}

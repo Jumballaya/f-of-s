@@ -1,6 +1,42 @@
 
 /* Flexbox */
+@import './_align.pcss';
+@import './_flex-size.pcss';
 
-.placeholder {
-  color: red;
+
+@responsive {
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-row {
+    flex-direction: row;
+  }
+
+  .flex-column {
+    flex-direction: column;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .flex-auto {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .flex-none {
+    flex: none;
+  }
+
 }

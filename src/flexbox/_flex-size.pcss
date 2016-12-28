@@ -1,0 +1,24 @@
+
+@responsive {
+
+  @for $i from 1 to var(--default--count) {
+
+    .shrink-$(i) {
+      flex-shrink: $(i);
+    }
+
+    .grow-$(i) {
+      flex-grow: $(i);
+    }
+
+    .order-$(i) {
+      flex-order: $(i);
+    }
+
+  }
+
+  .order-last {
+    flex-order: 99999;
+  }
+
+}
