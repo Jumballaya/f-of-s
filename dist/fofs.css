@@ -2668,6 +2668,20 @@ input[type="checkbox"]:checked + .checkbox {
 .font-kerning-none{
   font-kerning:none;
 }
+.cursor-pointer{
+  cursor:pointer;
+}
+.cursor-not-allowed{
+  cursor:not-allowed;
+}
+.cursor-grab{
+  cursor:-webkit-grab;
+  cursor:grab;
+}
+.cursor-grabbing{
+  cursor:-webkit-grabbing;
+  cursor:grabbing;
+}
 @media (max-width: 480px) {
   .xs-bg-size-contain {
     background-size:contain;
