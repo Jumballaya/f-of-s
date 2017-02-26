@@ -1,6 +1,6 @@
 {
   "name": "f-of-s",
-  "version": "1.1.0",
+  "version": "1.1.5",
   "description": "Functional CSS framework",
   "email": "pgb@pburris.me",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "main": "dist/fofs.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "stylelint --config .stylelintrc src/**/**.pcss"
   },
   "keywords": [
     "postcss",
@@ -19,7 +19,7 @@
   ],
   "author": "Patrick Burris",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^6.6.0",
     "cssnano": "^3.9.1",
     "gulp": "^3.9.1",
@@ -40,6 +40,9 @@
     "postcss-nested": "^1.0.0",
     "postcss-pseudoelements": "^3.0.0",
     "postcss-remove-root": "0.0.2",
-    "postcss-responsify": "^1.0.3"
+    "postcss-responsify": "^1.0.3",
+    "stylelint": "^7.9.0",
+    "stylelint-config-pgb": "^0.1.1",
+    "stylelint-declaration-use-variable": "^1.6.0"
   }
 }
